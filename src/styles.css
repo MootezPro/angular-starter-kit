@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --gradient-mobile-nav-start: #ff7f50;
+    --gradient-mobile-nav-end: #ff4500;
+  }

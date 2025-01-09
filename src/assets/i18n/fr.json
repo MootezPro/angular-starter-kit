@@ -1,0 +1,19 @@
+{
+  "Navbar":{
+  "DOCUMENTATION": "Documentation",
+  "INETUM": "Inetum",
+  "INSTALLATION": "Installation"
+ },
+"Breadcrumb" :{
+  "PROFILE": "Profil",
+  "DECEASED_INFO": "Informations du défunt",
+  "YOUR_INFO": "Vos informations",
+  "TAX_RESIDENCE": "Votre résidence fiscale",
+  "US_PROFILE": "Votre Profil US person",
+  "FISCAL_NUMBER": "Votre numero d'identification fiscale",
+  "SUMMARY": "Recaputulatife"
+
+}
+  }
+  
+  
