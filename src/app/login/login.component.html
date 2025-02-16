@@ -1,0 +1,79 @@
+<div class="wrapper">
+  <div class="page-header header-filter">
+    <div class="squares square1"></div>
+    <div class="squares square2"></div>
+    <div class="squares square3"></div>
+    <div class="squares square4"></div>
+    <div class="squares square5"></div>
+    <div class="squares square6"></div>
+    <div class="squares square7"></div>
+
+    <div class="page-header">
+      <div class="page-header-image"></div>
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-6 offset-lg-0 offset-md-3">
+              <div class="card card-register">
+                <div class="card-header">
+                  <img
+                    alt="Card image"
+                    class="card-img"
+                    src="assets/img/square1-red.png"
+                  />
+                  <h4 class="card-title">Connexion</h4>
+                </div>
+                <div class="card-body">
+                  <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+                    <!-- Email -->
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">
+                          <i class="tim-icons icon-email-85"></i>
+                        </div>
+                      </div>
+                      <input
+                        class="form-control"
+                        placeholder="Email"
+                        formControlName="email"
+                        type="email"
+                      />
+                    </div>
+                    
+                    <!-- Password -->
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">
+                          <i class="tim-icons icon-lock-circle"></i>
+                        </div>
+                      </div>
+                      <input
+                        class="form-control"
+                        placeholder="Mot de passe"
+                        formControlName="password"
+                        type="password"
+                      />
+                    </div>
+                    
+                    <!-- Submit Button -->
+                    <div class="text-center">
+                      <button type="submit" class="btn btn-danger btn-round btn-lg" [disabled]="loginForm.invalid">
+                        Se connecter
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div class="card-footer">
+                  <a class="text-center" routerLink="/register">
+                    Pas encore inscrit ? Créez un compte
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

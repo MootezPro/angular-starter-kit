@@ -1,0 +1,31 @@
+.form-check-input:checked {
+    background-color: #fd5d93;
+    border-color: #fd5d93;
+}
+.input-group-focus .form-control {
+    border-color: #f96332;
+    box-shadow: 0 0 4px rgba(249, 99, 50, 0.8);
+  }
+  
+  .card-register .card-header .card-title {
+    position: relative;
+    font-size: 3.9em;
+    font-weight: 900;
+    color: #222a42;
+    text-transform: lowercase;
+    margin-left: 1px;
+
+    /* margin-left: -5px; */
+    z-index: 1;
+} 
+  
+  /* CSS */
+
+
+.custom-input-group .input-group-text {
+  border-right: 0;
+}
+
+.custom-input-group .form-control {
+  border-left: 0;
+}

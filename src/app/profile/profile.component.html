@@ -1,0 +1,86 @@
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card card-plain">
+          <div class="card-header">
+            <h1 class="text-on-back">Mon profil</h1>
+          </div>
+          <div class="card-body">
+            <form [formGroup]="profileForm" (ngSubmit)="onSave()">
+              <div class="row">
+                <!-- Civilité (grisée et non modifiable) -->
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>Civilité</label>
+                    <select class="form-control" formControlName="civilite" [attr.disabled]="true">
+                      <option value="Mr">Monsieur</option>
+                      <option value="Mme">Madame</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>Nom complet</label>
+                    <input class="form-control" formControlName="fullName" type="text" />
+                  </div>
+                  <div *ngIf="profileForm.get('fullName')?.invalid && profileForm.get('fullName')?.touched" class="text-danger">
+                    Le nom est requis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>Email</label>
+                    <input class="form-control" formControlName="email" type="email" />
+                  </div>
+                  <div *ngIf="profileForm.get('email')?.invalid && profileForm.get('email')?.touched" class="text-danger">
+                    Email invalide.
+                  </div>
+                </div>
+
+                <!-- Date de naissance -->
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>Date de Naissance</label>
+                    <input class="form-control" formControlName="dateOfBirth" type="date" />
+                  </div>
+                  <div *ngIf="profileForm.get('dateOfBirth')?.invalid && profileForm.get('dateOfBirth')?.touched" class="text-danger">
+                    Date de naissance invalide ou dans le futur.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Numéro de téléphone -->
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>Téléphone</label>
+                    <input class="form-control" formControlName="phoneNumber" type="tel" />
+                  </div>
+                  <div *ngIf="profileForm.get('phoneNumber')?.invalid && profileForm.get('phoneNumber')?.touched" class="text-danger">
+                    Numéro de téléphone invalide (format FR requis).
+                  </div>
+                </div>
+
+              </div>
+
+              <button class="btn btn-primary btn-round float-left" type="submit">Sauvegarder</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<div class="register-bg"></div>
+<div class="square square-1" id="square1"></div>
+<div class="square square-2" id="square2"></div>
+<div class="square square-3" id="square3"></div>
+<div class="square square-4" id="square4"></div>
+<div class="square square-5" id="square5"></div>
+<div class="square square-6" id="square6"></div>

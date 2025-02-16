@@ -1,0 +1,49 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h1 class="title">{{ 'footer.brand' | translate }}</h1>
+      </div>
+      <div class="col-md-3">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/home']">{{ 'footer.home' | translate }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/landing']">{{ 'footer.landing' | translate }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/profile']">{{ 'footer.profile' | translate }}</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="">{{ 'footer.contactUs' | translate }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">{{ 'footer.aboutUs' | translate }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">{{ 'footer.blog' | translate }}</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h3 class="title">{{ 'footer.followUs' | translate }}</h3>
+        <div class="btn-wrapper profile">
+          <a class="btn btn-icon btn-neutral btn-round btn-simple mr-1" href="" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a class="btn btn-icon btn-neutral btn-round btn-simple mr-1" href="" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a class="btn btn-icon btn-neutral btn-round btn-simple" href="" target="_blank">
+            <i class="fab fa-dribbble"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,109 @@
+.form-check-input:checked {
+    background-color: #fd5d93;
+    border-color: #fd5d93;
+}
+.input-group-focus .form-control {
+    border-color: #f96332;
+    box-shadow: 0 0 4px rgba(249, 99, 50, 0.8);
+  }
+  
+  .card-register .card-header .card-title {
+    position: relative;
+    font-size: 3.9em;
+    font-weight: 900;
+    color: #222a42;
+    text-transform: lowercase;
+    margin-left: 1px;
+
+    /* margin-left: -5px; */
+    z-index: 1;
+} 
+  
+  /* CSS */
+
+
+.custom-input-group .input-group-text {
+  border-right: 0;
+}
+
+.custom-input-group .form-control {
+  border-left: 0;
+}
+
+@mixin linear-gradient($color1, $color2) {
+  background: linear-gradient(to right, $color1, $color2);
+}
+.squares {
+  animation: move-left-right 1s infinite;
+  @include linear-gradient(#ff7f50,  #ff4500);
+  position: absolute;
+  transition: 0.5s ease-out;
+  overflow: hidden;
+  border-radius: 20%;
+  &.square1 {
+    animation: move-left-right 4s infinite;
+    height: 300px;
+    width: 300px;
+    opacity: 0.5;
+    left: 3%;
+    top: -21%;
+  }
+
+  &.square2 {
+    animation: move-left-right 6s infinite;
+    height: 400px;
+    width: 400px;
+    opacity: 0.4;
+    right: -5%;
+    top: -12%;
+  }
+
+  &.square3 {
+    animation: move-left-right 5s infinite;
+    height: 200px;
+    width: 200px;
+    opacity: 0.1;
+    left: -5%;
+    bottom: 0%;
+  }
+
+  &.square4 {
+    animation: move-left-right 10s infinite;
+    height: 100px;
+    width: 100px;
+    opacity: 0.9;
+    right: 27%;
+    top: 70%;
+  }
+
+  &.square5 {
+    animation: move-left-right 6s infinite;
+    height: 250px;
+    width: 250px;
+    opacity: 0.1;
+    left: 32%;
+    bottom: 29%;
+  }
+
+  &.square6 {
+    animation: move-left-right 9s infinite;
+    left: 10%;
+    top: 35%;
+    height: 80px;
+    width: 80px;
+    opacity: 0.8;
+  }
+
+  &.square7 {
+    animation: move-left-right 3s infinite;
+    width: 300px;
+    height: 300px;
+    right: -5%;
+    bottom: 0%;
+    opacity: 0.1;
+  }
+  #hh {
+  font-weight: 600 !important;
+  
+  }  
+}
