@@ -1,10 +1,80 @@
 {
-  "Navbar": {
-    "DOCUMENTATION": "Documentation",
-    "INETUM": "Inetumm",
-    "INSTALLATION": "Installation"
-    }
-
-  
-  
+  "header": {
+    "tooltip": "Designed and coded by Creative Tim",
+    "brand": "ASK•",
+    "toggleNavigation": "Toggle navigation",
+    "documentation": "Documentation",
+    "jira": "Jira",
+    "confluence": "Confluence",
+    "tutorials": "Tutorials",
+    "inetum": "Inetum",
+    "team": "Team",
+    "resources": "Resources",
+    "installation": "Installation",
+    "guide": "Guide",
+    "prerequisites": "Prerequisites",
+    "configuration": "Configuration",
+    "login": "Login",
+    "register": "Register"
+  },
+  "footer": {
+    "brand": "ASK•",
+    "home": "Home",
+    "landing": "Landing Page",
+    "register": "Register",
+    "profile": "Profile",
+    "contactUs": "Contact Us",
+    "aboutUs": "About Us",
+    "blog": "Blog",
+    "license": "License",
+    "followUs": "Follow us"
+  },
+  "home": {
+    "starter-kit-title": "Angular Starter Kit",
+    "starter-kit-description": "Presentation of Angular concepts and features for reuse in a project.",
+    "objectives-title": "Objectives",
+    "principles-title": "Angular Principles",
+    "angular-description": "Angular is an open-source web application development framework based on TypeScript. It is designed to simplify the creation of complex web applications by providing a solid structure and advanced features for data management, navigation, routing, and user interface implementation.",
+    "best-practices-title": "Standardizing Best Practices",
+    "best-practices-description": "Features while enabling rapid evolution and easy maintenance.",
+    "collaboration-title": "Facilitating Collaboration",
+    "collaboration-description": "This project is designed so that every developer in the team can easily contribute thanks to a clear structure and modern tools such as Docker and WSL 2.",
+    "technologies-title": "Technologies Used",
+    "docker-description": "Docker: An essential tool for standardizing development environments and simplifying deployment processes.",
+    "wsl-description": "Subsystem for Linux (WSL 2): A solution for Windows developers, providing a native development experience close to Linux.",
+    "vscode-description": "Visual Studio Code (VS Code): The recommended code editor, enriched with extensions facilitating development with Angular and Docker."
+  },
+  "form": {
+    "title": "Register",
+    "civilite": {
+      "label": "Civility",
+      "mr": "Mr",
+      "mme": "Mrs",
+      "error": "Please select a civility."
+    },
+    "fullName": {
+      "placeholder": "Full Name",
+      "error": "Full Name is required."
+    },
+    "email": {
+      "placeholder": "Email",
+      "error": "Enter a valid email address."
+    },
+    "dateOfBirth": {
+      "placeholder": "Date of Birth",
+      "error": "Please select a valid date."
+    },
+    "phone": {
+      "placeholder": "Phone Number",
+      "required": "Phone number is required.",
+      "invalid": "Enter a valid phone number (e.g., +1234567890)."
+    },
+    "submit": "Get Started",
+    "footer": "Already have an account? Log in"
+  },
+  "404": {
+    "title": "Page Not Found",
+    "description": "Oops! The page you're looking for doesn't exist.",
+    "go-home": "Go Back to Home"
+  }
 }

@@ -1,19 +1,80 @@
 {
-  "Navbar":{
-  "DOCUMENTATION": "Documentation",
-  "INETUM": "Inetum",
-  "INSTALLATION": "Installation"
- },
-"Breadcrumb" :{
-  "PROFILE": "Profil",
-  "DECEASED_INFO": "Informations du défunt",
-  "YOUR_INFO": "Vos informations",
-  "TAX_RESIDENCE": "Votre résidence fiscale",
-  "US_PROFILE": "Votre Profil US person",
-  "FISCAL_NUMBER": "Votre numero d'identification fiscale",
-  "SUMMARY": "Recaputulatife"
-
-}
+  "header": {
+    "tooltip": "Conçu et codé par Creative Tim",
+    "brand": "ASK•",
+    "toggleNavigation": "Basculer la navigation",
+    "documentation": "Documentation",
+    "jira": "Jira",
+    "confluence": "Confluence",
+    "tutorials": "Tutoriels",
+    "inetum": "Inetum",
+    "team": "Équipe",
+    "resources": "Ressources",
+    "installation": "Installation",
+    "guide": "Guide",
+    "prerequisites": "Prérequis",
+    "configuration": "Configuration",
+    "login": "Connexion",
+    "register": "Inscription"
+  },
+  "footer": {
+    "brand": "ASK•",
+    "home": "Accueil",
+    "landing": "Page d'atterrissage",
+    "register": "Inscription",
+    "profile": "Profil",
+    "contactUs": "Contactez-nous",
+    "aboutUs": "À propos de nous",
+    "blog": "Blog",
+    "license": "Licence",
+    "followUs": "Suivez-nous"
+  },
+  "home": {
+    "starter-kit-title": "Kit de démarrage Angular",
+    "starter-kit-description": "Présentation des concepts et fonctionnalités d'Angular pour une réutilisation dans un projet.",
+    "objectives-title": "Objectifs",
+    "principles-title": "Les principes d'Angular",
+    "angular-description": "Angular est un framework de développement d'applications Web open-source basé sur TypeScript. Il est conçu pour faciliter la création d'applications Web complexes en offrant une structure solide et des fonctionnalités avancées pour la gestion des données, la navigation, le routage et la mise en œuvre de l'interface utilisateur.",
+    "best-practices-title": "Standardiser les bonnes pratiques",
+    "best-practices-description": "Fonctionnalités, tout en permettant des évolutions rapides et une maintenance aisée.",
+    "collaboration-title": "Faciliter la collaboration",
+    "collaboration-description": "Ce projet est conçu pour que chaque développeur au sein de l'équipe puisse contribuer facilement grâce à une structure claire et à des outils modernes tels que Docker et WSL 2.",
+    "technologies-title": "Technologies Utilisées",
+    "docker-description": "Docker : Un outil essentiel pour uniformiser les environnements de développement et simplifier les processus de déploiement.",
+    "wsl-description": "Subsystem for Linux (WSL 2) : Une solution destinée aux développeurs sous Windows, offrant une expérience de développement native proche de Linux.",
+    "vscode-description": "Visual Studio Code (VS Code) : L'éditeur de code recommandé, enrichi d'extensions facilitant le développement avec Angular et Docker."
+  },
+  "form": {
+    "title": "Inscription",
+    "civilite": {
+      "label": "Civilité",
+      "mr": "Monsieur",
+      "mme": "Madame",
+      "error": "Veuillez sélectionner une civilité."
+    },
+    "fullName": {
+      "placeholder": "Nom complet",
+      "error": "Le nom est obligatoire."
+    },
+    "email": {
+      "placeholder": "E-mail",
+      "error": "Veuillez entrer une adresse e-mail valide."
+    },
+    "dateOfBirth": {
+      "placeholder": "Date de naissance",
+      "error": "Veuillez sélectionner une date valide."
+    },
+    "phone": {
+      "placeholder": "Numéro de téléphone",
+      "required": "Le numéro de téléphone est obligatoire.",
+      "invalid": "Entrez un numéro de téléphone valide (ex. : +1234567890)."
+    },
+    "submit": "Commencer",
+    "footer": "Vous avez déjà un compte ? Connectez-vous"
+  },
+  "404": {
+    "title": "Page Non Trouvée",
+    "description": "Oups ! La page que vous recherchez n'existe pas.",
+    "go-home": "Retour à l'accueil"
   }
-  
-  
+}
